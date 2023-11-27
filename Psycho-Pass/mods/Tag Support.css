@@ -1,0 +1,46 @@
+#list_surround td.table_header a:hover {
+text-decoration: none !important;
+}
+
+#list_surround tbody:hover td[class^="td"]:nth-last-of-type(2) {
+    border-radius: 0 5px 5px 0;
+}
+
+/*
+FIXES - TAGS HOVER, DELETE TAGS TITLE, MAKE TAGS VISIBLE
+*/
+
+td[class^='td']:nth-of-type(6) {
+visibility: hidden;
+background-color: rgba(0, 0, 5, 0.85) !important;
+border-color: white;
+border-radius: 5px 5px 5px 5px !important;
+border-style: solid;
+border-width: 1px;
+height: 225px;
+left: 10px;
+padding: 10px 10px 0 24px;
+position: fixed;
+top: 382px;
+width: 173px;
+z-index: 1;
+}
+
+#list_surround tab\le tbody:hover tr td[class^='td']:nth-of-type(6) {
+visibility: visible;
+}
+
+.table_header:nth-of-type(6) {
+    display: none;
+}
+
+#list_surround tab\le tbody:hover tr td[class^='td']:nth-of-type(6) small {
+position: fixed !important;
+top: 100px;
+width: 0px;
+left: -5px;
+padding-top: 500px;
+padding-bottom: 500px;
+padding-left: 200px;
+padding-right: 50px;
+}
