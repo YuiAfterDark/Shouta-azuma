@@ -12,7 +12,7 @@ There's two, the first image link is for the characters and the second is for th
 
 body {
     background-attachment: fixed !important;
-    background-image: url("https://a.l3n.co/i/s6l1Ub.png"), url("https://c.l3n.co/i/s6HUmk.jpeg");
+    background-image: url("https://i.ibb.co/yfJ4HJW/characters.png") /* characters.png */, url("https://i.ibb.co/7V3XX2j/background.jpg") /* background.jpg */;
     background-position: center bottom, center center;
     background-repeat: no-repeat;
     background-size: 750px 500px, cover;
@@ -46,31 +46,31 @@ original text for these custom logos.
 }
 .header_cw {
     background-color: transparent;
-    background-image: url("https://c.l3n.co/i/s6HyyK.png");
+    background-image: url("https://i.ibb.co/bX0k98v/header-watching.png") /* header_watching.png */;
     background-repeat: no-repeat;
     height: 30px;
 }
 .header_ptw {
     background-color: transparent;
-    background-image: url("https://c.l3n.co/i/s6HoyA.png");
+    background-image: url("https://i.ibb.co/FnQChhd/header-planned.png") /* header_planned.png */;
     background-repeat: no-repeat;
     height: 30px;
 }
 .header_dropped {
     background-color: transparent;
-    background-image: url("https://c.l3n.co/i/s6ltOT.png");
+    background-image: url("https://i.ibb.co/ZhVCV4p/header-dropped.png") /* header_dropped.png */;
     background-repeat: no-repeat;
     height: 30px;
 }
 .header_completed {
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6ljA2.png");
+    background-image: url("https://i.ibb.co/Lvm7fPX/header-completed.png") /* header_completed.png */;
     background-repeat: no-repeat;
     height: 30px;
 }
 .header_onhold {
     background-color: transparent;
-    background-image: url("https://a.l3n.co/i/s6l0Qv.png");
+    background-image: url("https://i.ibb.co/PTfm6bk/header-onhold.png") /* header_onhold.png */;
     background-repeat: no-repeat;
     height: 30px;
 }
@@ -102,7 +102,7 @@ codes below.
 #list_surround .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6lZy5.png");
+    background-image: url("https://i.ibb.co/mFhN2bw/category.png") /* category.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     display: block;
@@ -117,7 +117,7 @@ codes below.
 #list_surround .status_not_selected:hover, #list_surround .status_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6Ha7P.png");
+    background-image: url("https://i.ibb.co/DWsxvqr/category-active.png") /* category_active.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     border: 5px solid rgba(0, 0, 0, 0.6);
@@ -135,7 +135,7 @@ codes below.
 #list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6lZy5.png");
+    background-image: url("https://i.ibb.co/mFhN2bw/category.png") /* category.png */;
     background-position: 0 -80px;
     background-repeat: repeat repeat;
     top: 150px;
@@ -145,7 +145,7 @@ codes below.
 .status_not_selected + .status_not_selected:hover {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6Ha7P.png");
+    background-image: url("https://i.ibb.co/DWsxvqr/category-active.png") /* category_active.png */;
     background-position: 0 -80px;
     background-repeat: repeat repeat;
     top: 150px;
@@ -155,7 +155,7 @@ codes below.
 + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6lZy5.png");
+    background-image: url("https://i.ibb.co/mFhN2bw/category.png") /* category.png */;
     background-position: 0 -160px;
     background-repeat: repeat repeat;
     top: 240px;
@@ -167,7 +167,7 @@ codes below.
 #list_surround .status_not_selected + .status_not_selected + .status_not_selected:hover {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6Ha7P.png");
+    background-image: url("https://i.ibb.co/DWsxvqr/category-active.png") /* category_active.png */;
     background-position: 0 -160px;
     background-repeat: repeat repeat;
     top: 240px;
@@ -181,7 +181,7 @@ codes below.
 .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6lZy5.png");
+    background-image: url("https://i.ibb.co/mFhN2bw/category.png") /* category.png */;
     background-position: 0 -240px;
     background-repeat: repeat repeat;
     top: 330px;
@@ -197,7 +197,7 @@ codes below.
 .status_not_selected:hover {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6Ha7P.png");
+    background-image: url("https://i.ibb.co/DWsxvqr/category-active.png") /* category_active.png */;
     background-position: 0 -240px;
     background-repeat: repeat repeat;
     top: 330px;
@@ -213,7 +213,7 @@ codes below.
 #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6lZy5.png");
+    background-image: url("https://i.ibb.co/mFhN2bw/category.png") /* category.png */;
     background-position: 0 -320px;
     background-repeat: repeat repeat;
     display: inline;
@@ -234,7 +234,7 @@ codes below.
 {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6Ha7P.png");
+    background-image: url("https://i.ibb.co/DWsxvqr/category-active.png") /* category_active.png */;
     background-position: 0 -320px;
     background-repeat: repeat repeat;
     display: inline;
@@ -257,7 +257,7 @@ codes below.
 .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6lZy5.png");
+    background-image: url("https://i.ibb.co/mFhN2bw/category.png") /* category.png */;
     background-position: 0 -400px;
     background-repeat: no-repeat no-repeat;
     display: inline;
@@ -282,7 +282,7 @@ codes below.
 .status_not_selected:hover {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://b.l3n.co/i/s6Ha7P.png");
+    background-image: url("https://i.ibb.co/DWsxvqr/category-active.png") /* category_active.png */;
     background-position: 0 -400px;
     background-repeat: no-repeat no-repeat;
     display: inline;
@@ -300,16 +300,16 @@ the same that hovers over the category menu and add/edit/more buttons.
 */
 
 * {
-cursor: url("https://c.l3n.co/i/s6l8Zi.png"), auto !important;
+cursor: url("https://i.ibb.co/gRSByC8/cursor.png") /* cursor.png */, auto !important;
 }
 
 tr:hover [class^="td"] {
-    cursor: url("https://c.l3n.co/i/s6lEsr.png"), auto !important;
+    cursor: url("https://i.ibb.co/X8vqKjw/cursor-active.png") /* cursor_active.png */, auto !important;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
 .status_selected a, .status_not_selected a, a.List_LightBox, #list_surround small a {
-    cursor: url("https://c.l3n.co/i/s6lEsr.png"), auto !important;
+    cursor: url("https://i.ibb.co/X8vqKjw/cursor-active.png") /* cursor_active.png */, auto !important;
 }
 
 
@@ -320,26 +320,26 @@ The custom More button (down arrow) and Edit/Add button (plus sign).
 */
 
 #list_surround small a {
-    background: url("https://a.l3n.co/i/s6HFIe.png") no-repeat scroll center center transparent;
+    background: url("https://i.ibb.co/NWdTqN0/more.png") /* more.png */ no-repeat scroll center center transparent;
     color: transparent !important;
     font-size: 13px;
     text-shadow: none !important;
 }
 
 #list_surround small a:hover {
-    background: url("https://a.l3n.co/i/s6HYeq.png") no-repeat scroll center center transparent;
+    background: url("https://i.ibb.co/dBTJfsg/more-active.png") /* more_active.png */ no-repeat scroll center center transparent;
     color: transparent !important;
     font-size: 13px;
     text-shadow: none !important;
 }
 
 a.List_LightBox {
-    background: url("https://b.l3n.co/i/s6Hb8H.png") no-repeat scroll center center transparent !important;
+    background: url("https://i.ibb.co/VLGq4T3/add.png") /* add.png */ no-repeat scroll center center transparent !important;
     color: transparent !important;
 }
 
 a.List_LightBox:hover {
-    background: url("https://a.l3n.co/i/s6Hxec.png") no-repeat scroll center center transparent !important;}
+    background: url("https://i.ibb.co/0JxXjhR/add-active.png") /* add_active.png */ no-repeat scroll center center transparent !important;}
 
 
 /*
@@ -528,7 +528,7 @@ FIXES - STATIC EFFECTS FIREFOX
 {
 
 #list_surround tab\le:nth-of-type(n+4) tbody:hover .animetitle:after
-{background-image: url("https://c.l3n.co/i/s6HN7Q.gif");
+{background-image: url("https://i.ibb.co/MhTLZST/cover-blank.gif") /* cover_blank.gif */;
 background-repeat: repeat !important;
 background-size: contain;
 border: 5px ridge #FFFFFF;
@@ -555,7 +555,7 @@ FIXES - HOVER EFFECTS CHROME
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
 #list_surround tab\le:nth-of-type(n+4) tbody:hover .animetitle:after
-{background-image: url("https://c.l3n.co/i/s6HN7Q.gif");
+{background-image: url("https://i.ibb.co/MhTLZST/cover-blank.gif") /* cover_blank.gif */;
 background-repeat: no-repeat !important;
 border: 5px ridge #FFFFFF;
 border-radius: 10px 10px 10px 10px;
